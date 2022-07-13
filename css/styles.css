@@ -1,13 +1,20 @@
 #title {
-    background-color:lavender;
+    background-color:#212529;
 }
 
 .container-fluid{
     padding: 3% 15%;
 }
 
-h1 {
+.titleH1 {
     font-family: "Montserrat",sans-serif;
     font-size: 3rem;
+    color: white;
+    opacity: 50%;
     line-height: 1.5;
+}
+
+#jayceeClear{
+    height: 350px;
+    rotate: 15%;
 }
