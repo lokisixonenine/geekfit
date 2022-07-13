@@ -1,5 +1,10 @@
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
 #title {
     background-color:#212529;
+    color: #fff;
 }
 
 .container-fluid{
@@ -7,7 +12,7 @@
 }
 
 .titleH1 {
-    font-family: "Montserrat",sans-serif;
+    font-family: "Ubuntu",sans-serif;
     font-size: 3rem;
     color: white;
     opacity: 50%;
@@ -15,6 +20,38 @@
 }
 
 #jayceeClear{
-    height: 350px;
-    rotate: 15%;
+    width: 35%;
+    transform: rotate(15deg);
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 1.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 25px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* buttons */
+.wodbutton {
+    margin: 5% 3% 5% 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* features */
+#features{
+    padding: 7% 15%;
 }
