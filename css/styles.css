@@ -2,6 +2,22 @@ body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 #title {
     background-color:#212529;
     color: #fff;
@@ -54,4 +70,31 @@ body {
 /* features */
 #features{
     padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    color: #8f8f8f;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: black;
+}
+
+/* wod */
+#wods {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+}
+
+.wod-image {
+   width: 10%;
+   margin: 20px;
 }
